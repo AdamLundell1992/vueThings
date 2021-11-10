@@ -4,6 +4,7 @@ import vueEvents from "../views/vueEvents.vue";
 import vueData from "../views/vueData.vue";
 import start from "../views/start.vue"
 import vueWatchers from "../views/vueWatchers.vue"
+import vueComputedProperties from "../views/vueComputedProperties.vue"
 
 Vue.use(VueRouter);
 
@@ -26,10 +27,12 @@ component:start,
   {
     path: "/vueData",
     name: "vueData",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component:vueData,
+  },
+  {
+    path: "/vueComputedProperties",
+    name: "ComputedProperties",
+    component:vueComputedProperties,
   },
 ];
 

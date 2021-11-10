@@ -3,9 +3,10 @@
      <div class="navbar" id="nav">
        <router-link to="/start"></router-link>
       <ul>
-        <li><router-link to="/vueEvents">Vue-Events</router-link></li>
-        <li><router-link to="/vueData">Vue-Data</router-link></li>
-        <li><router-link to="/vueWatchers">Vue-Watchers</router-link></li>
+        <li><router-link to="/vueEvents">Events</router-link></li>
+        <li><router-link to="/vueData">Listing Data</router-link></li>
+        <li><router-link to="/vueWatchers">use Watchers</router-link></li>
+        <li><router-link to="/vueComputedProperties">Computed Properties</router-link></li>
       </ul>
     </div>
     <router-view />
